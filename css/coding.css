@@ -215,4 +215,19 @@ footer {
     .program-flex-box > div {
         width: 23%;
     }
+
+    /*===== footer =====*/
+    footer {
+        padding-bottom: 50px;
+    }
+
+    .footer-flex-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .footer-flex-box > address {
+        width: 80%;
+    }
 }
