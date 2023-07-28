@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+
+/*그리드 */
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/*=======header=========*/
+header{
+    width: 100%;
+    height: 80px;
+}
+
+.logo-menu {
+    width: 100%; height: 60px;
+    background-color: blue;
+}
+
+.gnb {
+    padding-top: 20px;
+    display: flex;
+}
+
+/*=============main============*/
+.main-content {
+    padding-top: 100px;
+    width: 100%; height: 500px;
+    background-color: rgb(213, 211, 211);
+}
+
+.main-content h2 {
+    text-align: center;
+}
+
+.main-txt {
+    display: flex;
+    padding: 80px 0 50px 0;
+    width: 80%;
+}
+.main-content img {
+    padding-bottom: 50px;
+    width: 250px; height: 250px;
+}
+
+/*point-txt*/
+.point-txt {
+    padding: 100px 0 100px 0;
+    width: 80%;
+    color: orange;
+    text-align: center;
+}
+
+span {
+    color: darkgrey;
+    font-size: 15px;
+}
+
+/*container-box*/
+.container-box {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(238, 238, 238);
+}
+
+.container-box h2 {
+    padding: 90px 0 80px 0;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box > li {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+/*=========footer========*/
+footer {
+    font-size: 15px;
+    color: #fff;
+    background-color: rgb(13, 100, 149);
+    padding: 80px 0 60px 80px;
+}
+
+.sns {
+    display: flex;
+}
+
+
+/* tablet */
+@media (min-width:768px) {
+    header {
+        height: 400px;
+    }
+    
+    .main-section {
+        flex-direction: row;
+    }
+
+    .main-section > section {
+        width: 50%;
+    }
+    .main-section > section section#choice {
+        width: 100%;
+    }
+    .maiimg {
+        display: none;
+    }
+}
